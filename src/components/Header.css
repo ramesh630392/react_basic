@@ -1,0 +1,189 @@
+@media (min-width:476px) {
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 12vh;
+        background-color: rgb(68, 94, 133);
+    }
+    .header-container2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    .header-container3{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .header-text{
+        color: aliceblue;
+        margin-right: 10px;
+        font-size: large;
+    }
+    .button-logout{
+        background-color: rgb(11, 28, 111);
+        color: aliceblue;
+        border-width: 0cap;
+        border-radius: 8px;
+        font-size: small;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 30px;
+        font-weight: bolder;
+    }
+    .hamburger{
+        color: aliceblue;
+        font-size: 40px;
+        margin-right: 20px;
+        margin-top: 0px;
+        display: none;
+    }
+    .header-container5{
+        min-height: 200px;
+        max-height: 250px;
+        width: 200px;
+        margin-top: 10px;
+        background-color: rgb(54, 48, 48);
+        margin-left: auto;
+        margin-top: -5px;
+        margin-right: 5px;
+        border-radius: 2px;
+        position: unset;
+        display: flex;
+        flex-direction: column;
+    }
+    .ham-text{
+        background-color: transparent;
+        color: aliceblue;
+        border-width: 0cap;
+        margin-top: 10px;
+    }
+    .header-input{
+        border-width: 0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: 10px;
+    }
+    .search-icon{
+        font-size: 40px;
+        color: #000;
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+    .height{
+        height: 13vh;
+    }
+    .sm-select{
+        width: 100px;
+        align-self: center;
+    }
+    .sort-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-image{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width:476px) {
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 12vh;
+        background-color: rgb(68, 94, 133);
+    }
+    .header-container2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    .header-container3{
+        display: none;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .header-text{
+        color: aliceblue;
+        margin-right: 10px;
+        font-size: large;
+    }
+    .button-logout{
+        background-color: rgb(11, 28, 111);
+        color: aliceblue;
+        border-width: 0cap;
+        border-radius: 8px;
+        font-size: small;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 30px;
+        font-weight: bolder;
+    }
+    .hamburger{
+        color: aliceblue;
+        font-size: 40px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    .header-container5{
+        min-height: 200px;
+        max-height: 250px;
+        width: 200px;
+        margin-top: 10px;
+        background-color: rgb(54, 48, 48);
+        margin-left: auto;
+        margin-top: -5px;
+        margin-right: 5px;
+        border-radius: 2px;
+        position: unset;
+        display: flex;
+        flex-direction: column;
+    }
+    .ham-text{
+        background-color: transparent;
+        color: aliceblue;
+        border-width: 0cap;
+        margin-top: 10px;
+    }
+    .header-input{
+        border-width: 0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: 10px;
+    }
+    .search-icon{
+        font-size: 40px;
+        color: #000;
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+    .height{
+        height: 13vh;
+    }
+    .sm-select{
+        width: 100px;
+        align-self: center;
+    }
+    .sort-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-image{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+}
